@@ -56,7 +56,7 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Scripts" />
-    <Folder Include="TableDataGenerators" />
+    <Folder Include="DataGenerators" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Career.sql" />
@@ -81,7 +81,7 @@
     <None Include="Scripts\4b.sql" />
     <None Include="Scripts\5a.sql" />
     <None Include="Scripts\5b.sql" />
-    <None Include="TableDataGenerators\InsertTestData.sql" />
-    <None Include="TableDataGenerators\DropTables.sql" />
+    <None Include="DataGenerators\InsertTestData.sql" />
+    <None Include="DataGenerators\DropTables.sql" />
   </ItemGroup>
 </Project>
