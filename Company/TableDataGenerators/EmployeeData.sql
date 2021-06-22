@@ -1,0 +1,1 @@
+﻿INSERT INTO Employee (Name, Surname) VALUES ('Klim', 'Severin')
