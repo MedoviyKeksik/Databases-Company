@@ -1,0 +1,3 @@
+﻿ALTER TABLE Career
+	ADD CONSTRAINT DF_Career_DateHired
+	DEFAULT GETDATE() FOR DateHired
