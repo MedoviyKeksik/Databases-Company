@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE GetWorkGistory
+﻿CREATE PROCEDURE GetWorkHistory
 	@Name nchar(100),
 	@Surname nchar(100)
 AS
