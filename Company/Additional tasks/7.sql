@@ -1,4 +1,4 @@
-﻿CREATE FUNCTION [dbo].[7]
+﻿CREATE FUNCTION GetSalary
 (
 	@EmployeeId int,
 	@DateStart datetime,

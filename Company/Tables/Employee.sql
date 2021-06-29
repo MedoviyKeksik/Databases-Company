@@ -3,6 +3,6 @@
     [Surname]     NCHAR (100) NULL,
     [Name]        NCHAR (100) NULL,
     [DateOfBirth] DATETIME    NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
+    CONSTRAINT PK_EmployeeID PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
