@@ -87,10 +87,6 @@
     <None Include="Scripts\5b.sql" />
     <None Include="DataGenerators\InsertTestData.sql" />
     <None Include="DataGenerators\DropTables.sql" />
-    <None Include="Additional tasks\1.sql" />
-    <None Include="Additional tasks\2.sql" />
-    <None Include="Additional tasks\3.sql" />
-    <None Include="Additional tasks\4.sql" />
     <None Include="DataGenerators\InsertTestData_Additional.sql" />
   </ItemGroup>
 </Project>
