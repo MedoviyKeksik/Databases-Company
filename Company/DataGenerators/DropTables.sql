@@ -1,0 +1,5 @@
+﻿DROP TABLE Salary;
+DROP TABLE Career;
+DROP TABLE Department;
+DROP TABLE Job;
+DROP TABLE Employee;

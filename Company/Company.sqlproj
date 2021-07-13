@@ -9,8 +9,7 @@
     <ProjectGuid>{7d0ebaeb-7806-43a3-a28a-7bce578a18eb}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
-    <RootPath>
-    </RootPath>
+    <RootPath />
     <RootNamespace>Company</RootNamespace>
     <AssemblyName>Company</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
@@ -48,7 +47,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
-    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -56,5 +54,39 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Scripts" />
+    <Folder Include="DataGenerators" />
+    <Folder Include="Additional tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Career.sql" />
+    <Build Include="Tables\Department.sql" />
+    <Build Include="Tables\Employee.sql" />
+    <Build Include="Additional tasks\7.sql" />
+    <Build Include="Additional tasks\6.sql" />
+    <Build Include="Additional tasks\5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Job.sql" />
+    <Build Include="Tables\Salary.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\1a.sql" />
+    <None Include="Scripts\1b.sql" />
+    <None Include="Scripts\1c.sql" />
+    <None Include="Scripts\2a.sql" />
+    <None Include="Scripts\2b.sql" />
+    <None Include="Scripts\2c.sql" />
+    <None Include="Scripts\2d.sql" />
+    <None Include="Scripts\3a.sql" />
+    <None Include="Scripts\3b.sql" />
+    <None Include="Scripts\4a.sql" />
+    <None Include="Scripts\4b.sql" />
+    <None Include="Scripts\5a.sql" />
+    <None Include="Scripts\5b.sql" />
+    <None Include="DataGenerators\InsertTestData.sql" />
+    <None Include="DataGenerators\DropTables.sql" />
+    <None Include="DataGenerators\InsertTestData_Additional.sql" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Job] (
+﻿CREATE TABLE [Job] (
     [Id]     INT         IDENTITY (1, 1) NOT NULL,
     [Title]  NCHAR (100) NULL,
     [Salary] MONEY       NOT NULL,
